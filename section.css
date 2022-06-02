@@ -31,3 +31,18 @@
 .intro_btn:hover{
    background-color: hsl(176, 68%, 64%);
 }
+
+.benefits{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    padding: 0px;
+    gap: 32px;
+    margin-top: 100px
+}
+
+li{
+  margin: 0;
+  text-align: center;
+
+}
