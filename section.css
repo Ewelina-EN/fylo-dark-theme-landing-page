@@ -107,3 +107,43 @@ span{
     align-items: center;
     font-size: 10px;
 }
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px hsl(216, 53%, 9%);
+    max-height: 3250px;
+    max-width: 700px;
+    padding: 25px;
+    margin: 100px;
+}
+
+.sign_text{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.sign_inputs{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 3;
+}
+
+.sign_email{
+    padding: 10px 70px 10px 70px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(0, 0%, 100%);
+    margin-right: 20px;
+}
+
+.sign_submit{
+    padding: 10px 30px 10px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color:hsl(198, 60%, 50%);
+    color: hsl(0, 0%, 100%); ;
+}
