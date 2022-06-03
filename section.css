@@ -76,3 +76,34 @@ span{
 .productive_arrow{
     padding-left: 10px;
 }
+
+.team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.team_profile{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 0 0 20px hsl(216, 53%, 9%);
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+.team_img{
+    border-radius: 100%;
+    max-width: 25px;
+    max-height: 25px;
+    margin-right: 10px ;
+}
+
+.team_signature{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+}
