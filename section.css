@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.intro_header{
+.header{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 30px;
@@ -44,5 +44,35 @@
 li{
   margin: 0;
   text-align: center;
+}
 
+.productive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 70px 0 70px 0;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.productive_img{
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 40px;
+}
+
+.productive_link{
+    display: flex;
+    color:hsl(176, 68%, 64%);
+    
+}
+
+.productive_arrow{
+    padding-left: 10px;
 }
