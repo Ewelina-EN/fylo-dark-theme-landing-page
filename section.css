@@ -1,10 +1,10 @@
-.intro{
+.intro {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.header{
+.header {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 30px;
@@ -12,11 +12,11 @@
     letter-spacing: 1px;
 }
 
-.intro_text{
+.intro_text {
     text-align: center;
 }
 
-.intro_btn{
+.intro_btn {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding: 15px 70px 15px 70px;
@@ -28,11 +28,12 @@
     margin-bottom: 10px;
 }
 
-.intro_btn:hover{
-   background-color: hsl(176, 68%, 64%);
+.intro_btn:hover {
+    cursor: pointer;
+    background-color: hsl(176, 68%, 64%);
 }
 
-.benefits{
+.benefits {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     list-style: none;
@@ -41,12 +42,12 @@
     margin-top: 100px
 }
 
-li{
-  margin: 0;
-  text-align: center;
+li {
+    margin: 0;
+    text-align: center;
 }
 
-.productive{
+.productive {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,37 +55,36 @@ li{
     padding: 70px 0 70px 0;
 }
 
-span{
+span {
     display: flex;
     flex-direction: row;
     align-items: center;
     border-bottom: 1px solid hsl(176, 68%, 64%);
 }
 
-.productive_img{
+.productive_img {
     max-width: 400px;
     max-height: 400px;
     margin-right: 40px;
 }
 
-.productive_link{
+.productive_link {
     display: flex;
-    color:hsl(176, 68%, 64%);
-    
+    color: hsl(176, 68%, 64%);
 }
 
-.productive_arrow{
+.productive_arrow {
     padding-left: 10px;
 }
 
-.team{
+.team {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.team_profile{
+.team_profile {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -94,21 +94,21 @@ span{
     font-size: 12px;
 }
 
-.team_img{
+.team_img {
     border-radius: 100%;
     max-width: 25px;
     max-height: 25px;
-    margin-right: 10px ;
+    margin-right: 10px;
 }
 
-.team_signature{
+.team_signature {
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: 10px;
 }
 
-.sign{
+.sign {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,19 +120,19 @@ span{
     margin: 100px;
 }
 
-.sign_text{
+.sign_text {
     text-align: center;
     font-size: 12px;
     padding-bottom: 20px;
 }
 
-.sign_inputs{
+.sign_inputs {
     display: flex;
     justify-content: space-between;
     flex-grow: 3;
 }
 
-.sign_email{
+.sign_email {
     padding: 10px 70px 10px 70px;
     border-radius: 25px;
     border: none;
@@ -140,10 +140,17 @@ span{
     margin-right: 20px;
 }
 
-.sign_submit{
+.form_btn {
     padding: 10px 30px 10px 30px;
     border-radius: 25px;
     border: none;
-    background-color:hsl(198, 60%, 50%);
-    color: hsl(0, 0%, 100%); ;
+    background-color: hsl(198, 60%, 50%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.form_btn:hover {
+    cursor: pointer;
+    background-color: hsl(176, 68%, 64%);
 }
