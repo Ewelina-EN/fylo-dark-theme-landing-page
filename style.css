@@ -40,6 +40,10 @@ body {
     margin: 50px
 }
 
+.nav_list{
+    display: flex;
+}
+
 .nav_elements {
     padding-right: 40px;
 }
@@ -59,8 +63,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 50px 10px 50px 10px;
-    margin: auto;
+    padding: 50px 20px 50px 20px;
     width: 100%;
 }
 
@@ -69,6 +72,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    max-width: 350px;
 }
 
 .footer_email {
@@ -76,8 +80,25 @@ body {
     flex-direction: column;
 }
 
+.footer_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .footer_point {
     padding: 5px 25px 0 0;
+}
+
+.footer_icons{
+    display: flex;
+    flex-direction: column;
+}
+.footer_sm{
+    color: white;
+    width: 32px;
+    height: 32px;
 }
 
 a {
