@@ -16,22 +16,6 @@
     text-align: center;
 }
 
-.intro_btn {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    padding: 15px 70px 15px 70px;
-    border-radius: 25px;
-    background-color: hsl(198, 60%, 50%);
-    color: hsl(0, 0%, 100%);
-    border: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.intro_btn:hover {
-    cursor: pointer;
-    background-color: hsl(176, 68%, 64%);
-}
 
 .benefits {
     display: grid;
@@ -113,44 +97,34 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 90%;
+    text-align: center;
     box-shadow: 0 0 20px hsl(216, 53%, 9%);
-    max-height: 3250px;
-    max-width: 700px;
-    padding: 25px;
+    padding: 30px;
     margin: 100px;
 }
 
 .sign_text {
     text-align: center;
     font-size: 12px;
-    padding-bottom: 20px;
+    padding: 0 40px 20px 40px;
 }
 
 .sign_inputs {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-grow: 3;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .sign_email {
-    padding: 10px 70px 10px 70px;
-    border-radius: 25px;
-    border: none;
     background-color: hsl(0, 0%, 100%);
-    margin-right: 20px;
-}
-
-.form_btn {
-    padding: 10px 30px 10px 30px;
+    width: 80%;
     border-radius: 25px;
     border: none;
-    background-color: hsl(198, 60%, 50%);
-    color: hsl(0, 0%, 100%);
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-}
-
-.form_btn:hover {
-    cursor: pointer;
-    background-color: hsl(176, 68%, 64%);
+    margin-right: 20px;
+    text-align: left;
+    padding-left: 30px;
 }
