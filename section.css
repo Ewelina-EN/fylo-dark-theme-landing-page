@@ -99,9 +99,12 @@ span {
     justify-content: center;
     width: 90%;
     text-align: center;
+    background-color: hsl(219, 30%, 18%);
     box-shadow: 0 0 20px hsl(216, 53%, 9%);
     padding: 30px;
-    margin: 100px;
+    margin-bottom: -100px;
+    margin-top: 100px;
+    position: relative;
 }
 
 .sign_text {
