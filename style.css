@@ -28,8 +28,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Raleway', sans-serif;
-    /* padding: 0 10px 0 10px; */
-    /* margin: 50px; */
+    margin-top: 40px;
     width: 100%;
 }
 
@@ -70,7 +69,6 @@ body {
 }
 .btn:active {
     cursor: pointer;
-    /* background-color: #65e2d9; */
     filter: brightness(110%);
 }
 
