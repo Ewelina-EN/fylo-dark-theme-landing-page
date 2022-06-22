@@ -13,6 +13,11 @@
     margin-top: 30px;
 }
 
+.intro_img{
+    max-width: 100%;
+    display: block;
+}
+
 .intro_text {
     text-align: center;
     margin-top: 20px;
