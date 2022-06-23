@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 600px;
 }
 
 .header {
-    font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -14,14 +14,16 @@
 }
 
 .intro_img{
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 
 .intro_text {
+    width: 100%;
+    font-size: 14px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0 80px 20px 80px;
+    align-items: center;
 }
 
 .benefits {
@@ -36,7 +38,7 @@
 }
 
 li {
-    margin: 0;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -86,6 +88,7 @@ span {
     background-color: hsl(219, 30%, 18%);
     box-shadow: 0 0 20px hsl(216, 53%, 9%);
     font-size: 12px;
+    border-radius: 5px;
 }
 
 .team_img {
@@ -100,9 +103,14 @@ span {
     flex-direction: row;
     align-items: center;
     font-size: 10px;
+    
 }
 
 .sign {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 70%;
     text-align: center;
     background-color: hsl(219, 30%, 18%);
@@ -134,4 +142,100 @@ span {
     margin-right: 20px;
     text-align: left;
     padding: 10px 200px 10px 30px;
+}
+
+@media (max-width: 375px) {
+    body{
+      margin: 0;
+    }
+    .header{
+        font-size: 23px;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .intro_text{
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        margin: 0 20px 10px 20px;
+    }
+
+    .benefits{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .productive{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .productive_img{
+        width: 100%;
+        margin: 0 0 30px;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 17px;
+    }
+
+    .quotes{
+        margin-left: -265px;
+        margin-bottom: -18px;
+    }
+
+    .quotes_img{
+        width: 25px;
+    }
+
+    .team{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .team_profile{
+        border-radius: 5px;
+    }
+
+    .team_signature{
+        margin: 0;
+    }
+
+    .sign{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 20px hsl(216, 53%, 9%);
+        height: 280px;
+        width: 260px;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    h2{
+        margin: 5px 0 5px 0;
+    }
+
+    .sign_text{
+        font-size: 14px;
+        margin: 0;
+        padding: 10px 0 10px 0;
+        margin-bottom: 20px;
+    }
+
+    .sign_inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;
+    }
+
+    .sign_email{
+        margin: 0;
+        padding: 15px
+    }
 }
