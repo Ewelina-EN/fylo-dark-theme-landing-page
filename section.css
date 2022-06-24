@@ -107,10 +107,6 @@ span {
 }
 
 .sign {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
     width: 70%;
     text-align: center;
     background-color: hsl(219, 30%, 18%);
@@ -141,10 +137,10 @@ span {
     border: none;
     margin-right: 20px;
     text-align: left;
-    padding: 10px 200px 10px 30px;
+    padding: 10px 100px 10px 30px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 700px) {
     body{
       margin: 0;
     }
